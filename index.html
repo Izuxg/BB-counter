@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <title>Basketball Scorecounter</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3 class="team">HOME</h3>
+            <p class="scoreDisplay"><span id="scoreHome">0</span></p>
+            <button onclick="addOneHome()">+1</button>
+            <button onclick="addTwoHome()">+2</button>
+            <button onclick="addThreeHome()">+3</button>
+        </div>
+        <div>
+            <h3 class="team">GUEST</h3>
+            <p class="scoreDisplay"><span id="scoreGuest">0</span></p>
+            <button onclick="addOneGuest()">+1</button>
+            <button onclick="addTwoGuest()">+2</button>
+            <button onclick="addThreeGuest()">+3</button>
+        </div>
+        <div>
+            <button id="reset" onclick="reset()">New Game</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

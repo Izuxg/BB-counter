@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #0C4A6E;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoreDisplay{
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+
+background: #080001;
+border-radius: 5px;
+}
+
+.team{
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+color: #EEEEEE;
+}
+
+button{
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+left: 192px;
+top: 271px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: #0C4A6E;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+color: #9AABD8;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+text-align: center;
+}
+
+span{
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+color: #F94F6D;
+/* padding: ; */
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset{
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: #0C4A6E;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+color: white;
+font-weight: 600;
+font-size: 18px;
+/* or 155% */
+padding: 30px 60px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.winner{
+    background-color: slategray;
+}
